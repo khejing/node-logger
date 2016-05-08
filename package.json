@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/khejing/node-logger/issues"
   },
-  "homepage": "https://github.com/khejing/node-logger#readme"
+  "homepage": "https://github.com/khejing/node-logger#readme",
+  "dependencies": {
+    "winston": "github:khejing/winston",
+    "winston-syslog": "github:khejing/winston-syslog"
+  }
 }
